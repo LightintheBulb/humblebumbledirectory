@@ -7,9 +7,15 @@ test("Can set school via constructor", () => {
 });
 
 test("getRole() should return \"Intern\"", () => {
-  //TODO:code goes here
+  //TODO;code goes here
+  const testValue = "Intern";
+  const e = new Intern("Foo", 1, "test@test.com", "UCLA");
+  expect(e.getRole()).toBe(testValue);
 });
 
 test("Can get school via getSchool()", () => {
-  //TODO:code goes here
+  //TODO;code goes here
+  const testValue = "UCLA";
+  const e = new Intern("Foo", 1, "test@test.com", testValue);
+  expect(e.getSchool()).toBe(testValue);
 });
