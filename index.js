@@ -85,15 +85,15 @@ function appMenu() {
   }
 
   function createTeam() {
-    //code goes here
+    //TODO:code goes here
   }
 
   function addEngineer() {
-    //code goes here
+    //TODO:code goes here
   }
 
   function addIntern() {
-    //code goes here
+    //TODO:code goes here
   }
 
   function buildTeam() {
